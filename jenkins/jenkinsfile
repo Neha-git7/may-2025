@@ -6,7 +6,7 @@ pipeline {
             sh 'echo "am building the image in the docker"'
         }
     }
-    stages('Test') {
+    stage('Test') {
         steps {
             sh 'echo "am Testing the image in the docker"'
 
